@@ -1,0 +1,3 @@
+alias argoward='kubectl -n syn get secret steward -o json | jq -r .data.token | base64 --decode | pbcopy && kubectl -n syn port-forward svc/argocd-server 8000:80'
+alias ocargoward='kubectl --as cluster-admin -n syn get secret steward -o json | jq -r .data.token | base64 --decode | pbcopy && kubectl --as cluster-admin -n syn port-forward svc/argocd-server 8000:80'
+alias commodore='/Users/andreas.tellenbach/.venvs/commodore/bin/commodore'

@@ -1,0 +1,3 @@
+alias ll='ls -lah'
+alias date-yyyymmdd-HHMM='date '+%Y%m%d-%H%M''
+alias date-yyyymmdd-HHMMSS='date '+%Y%m%d-%H%M%S''
