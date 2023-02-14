@@ -3,7 +3,7 @@ colorscheme elflord
 
 " Display tabs as " »", trailing Whitespaces as "◦"
 set list
-set listchars=tab:\ »,extends:›,precedes:‹,nbsp:·,trail:◦
+set listchars=tab:\ »,extends:›,precedes:‹,nbsp:·,trail:°,eol:$
 
 " Expand tabstops to 2 whitespaces
 set expandtab
