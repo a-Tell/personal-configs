@@ -1,0 +1,2 @@
+alias gitniceyolo='git commit -am "Just nice yolo-pushing..." && git push'
+alias gityolo='git commit -am "Just yolo-pushing..." && git push -f'
