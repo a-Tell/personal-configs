@@ -1,2 +1,8 @@
+alias gs='git status'
+alias ga='git add -A'
+alias gca='git commit -a'
+alias gaca='git add -A && git commit -a'
+
+# Yolo's
 alias gitniceyolo='git commit -am "Just nice yolo-pushing..." && git push'
 alias gityolo='git commit -am "Just yolo-pushing..." && git push -f'
