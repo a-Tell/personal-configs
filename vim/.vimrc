@@ -1,6 +1,3 @@
-" Fancy and good readable colors
-colorscheme elflord
-
 " Turn syntax highlighting on
 syntax on
 
@@ -10,7 +7,6 @@ set number
 " Display tabs as " »", trailing Whitespaces as "◦"
 set list
 set listchars=tab:\ »,extends:›,precedes:‹,nbsp:·,trail:°,eol:$
-
 
 " Set tabstops to 2 characters
 set tabstop=2
