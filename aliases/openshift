@@ -1,1 +1,14 @@
-alias ocad='oc --as cluster-admin'
+# General
+alias \
+o='oc' \
+alias oad='o --as cluster-admin'
+
+# Get-Aliases
+alias \
+ogp='o get pods' \
+ogs='o get services' \
+ogd='o get deployments' \
+ogst='o get statefulsets' \
+ogr='o get replicationcontrollers' \
+ogi='o get ingresses' \
+ogn='o get namespaces'

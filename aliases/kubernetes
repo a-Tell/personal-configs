@@ -1,2 +1,14 @@
-alias k='kubectl'
-alias kad='kubectl --as cluster-admin'
+# General
+alias \
+k='kubectl' \
+kad='kubectl --as cluster-admin'
+
+# Get-Aliases
+alias \
+kgp='k get pods' \
+kgs='k get services' \
+kgd='k get deployments' \
+kgst='k get statefulsets' \
+kgr='k get replicationcontrollers' \
+kgi='k get ingresses' \
+kgn='k get namespaces'
