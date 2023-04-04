@@ -1,3 +1,9 @@
+# ls
 alias ll='ls -lah'
+
+# date
 alias date-yyyymmdd-HHMM='date '+%Y%m%d-%H%M''
 alias date-yyyymmdd-HHMMSS='date '+%Y%m%d-%H%M%S''
+
+# openssl
+alias read-x509='openssl x509 -noout -text -in'

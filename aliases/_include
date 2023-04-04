@@ -1,5 +1,5 @@
 . $(dirname "$0")/kubernetes
 . $(dirname "$0")/git
 . $(dirname "$0")/openshift
-. $(dirname "$0")/shell
+. $(dirname "$0")/various
 . $(dirname "$0")/syn
