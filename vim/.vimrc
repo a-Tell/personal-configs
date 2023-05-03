@@ -16,3 +16,9 @@ set tabstop=2
 
 " Expand tabstops to whitespaces
 set expandtab
+
+" Highlight current line under cursor
+set cursorline
+
+" Show filename in window title
+set title
