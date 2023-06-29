@@ -1,3 +1,20 @@
 # Disable shared history
 setopt no_share_history
 unsetopt share_history
+
+# Include aliases
+source ~/git-repos/a-Tell/personal-configs/aliases/_include
+
+## Source autocompletes, if tools are installed
+# helm
+if (( $+commands[helm] )); then
+  source <(helm completion zsh)
+fi
+# kubectl
+if (( $+commands[kubectl] )); then
+  source <(kubectl completion zsh)
+fi
+# oc
+if (( $+commands[oc] )); then
+  source <(oc completion zsh)
+fi
