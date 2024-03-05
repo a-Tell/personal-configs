@@ -3,7 +3,7 @@ setopt no_share_history
 unsetopt share_history
 
 # Include aliases
-source ~/git-repos/a-Tell/personal-configs/aliases/_include
+source ~/git-repos/GitHub/a-Tell/personal-configs/aliases/_include
 
 ## Source autocompletes, if tools are installed
 # helm
