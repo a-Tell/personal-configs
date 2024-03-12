@@ -1,6 +1,10 @@
 " Turn syntax highlighting on
 syntax on
 
+" Use vanilla colors and adjust for Dark Terminals
+colorscheme default
+set background=dark
+
 " Turn on search highlighting
 set hlsearch
 
