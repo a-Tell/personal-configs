@@ -7,3 +7,7 @@ alias date-yyyymmdd-HHMMSS='date '+%Y%m%d-%H%M%S''
 
 # openssl
 alias read-x509='openssl x509 -noout -text -in'
+
+# velero
+alias fb-today='velero get backups | grep -v Completed | grep `date -I`'
+alias fb-yesterday='velero get backups | grep -v Completed | grep `date -d yesterday -I`'
