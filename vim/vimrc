@@ -23,3 +23,20 @@ set expandtab
 
 " Show filename in window title
 set title
+
+" CleanView for copy/paste
+function! ToggleCleanView()
+  if exists('b:clean_view_enabled') && b:clean_view_enabled
+    set list
+    set number
+    set relativenumber
+    let b:clean_view_enabled = 0
+    echo "Clean view OFF"
+  else
+    set nolist
+    set nonumber norelativenumber
+    let b:clean_view_enabled = 1
+    echo "Clean view ON"
+  endif
+endfunction
+command! CleanView call ToggleCleanView()
