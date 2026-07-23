@@ -3,3 +3,4 @@
 . $(dirname "$0")/openshift
 . $(dirname "$0")/various
 . $(dirname "$0")/syn
+. $(dirname "$0")/k8wms-cli
