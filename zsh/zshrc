@@ -18,3 +18,8 @@ fi
 if (( $+commands[oc] )); then
   source <(oc completion zsh)
 fi
+
+# k8wms-cli
+if (( $+commands[k8wms-cli] )); then
+  source <(k8wms-cli completion zsh)
+fi
